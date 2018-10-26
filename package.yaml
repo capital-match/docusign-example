@@ -8,14 +8,21 @@ copyright:           "Capital Match"
 
 dependencies:
 - base >= 4.7 && < 5
+- bytestring
 - docusign-base
 - docusign-client
+- exceptions
+- filepath
+- optparse-generic
+- text
+- uuid
 
 executables:
   docusign-example:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
+    - -Wall -Werror
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
