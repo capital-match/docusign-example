@@ -17,6 +17,14 @@ you should have the following information to hand:
 
 ## Building
 
+With cabal:
+
+```
+cabal new-build
+```
+
+With stack:
+
 ```
 stack setup
 stack build
@@ -27,7 +35,7 @@ stack build
 Run the following, substituting in your own DocuSign account information:
 
 ```
-stack exec docusign-example --                       \
+<cabal new-exec|stack exec> docusign-example --                       \
   --host      demo.docusign.net                      \
   --port      443                                    \
   --account   1234567                                \
