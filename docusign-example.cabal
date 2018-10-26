@@ -1,0 +1,40 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: ee7b7778389692e15c251e30e82001286e42f57e5c94db0821a2906f67352838
+
+name:           docusign-example
+version:        0.1.0.0
+homepage:       https://github.com/capital-match/docusign-example#readme
+bug-reports:    https://github.com/capital-match/docusign-example/issues
+author:         Capital Match
+maintainer:     dev@capital-match.com
+copyright:      Capital Match
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+source-repository head
+  type: git
+  location: https://github.com/capital-match/docusign-example
+
+executable docusign-example
+  main-is: Main.hs
+  other-modules:
+      Paths_docusign_example
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Werror -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , bytestring
+    , docusign-base
+    , docusign-client
+    , exceptions
+    , filepath
+    , optparse-generic
+    , text
+    , uuid
+  default-language: Haskell2010
