@@ -1,11 +1,8 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
---
--- see: https://github.com/sol/hpack
---
--- hash: ee7b7778389692e15c251e30e82001286e42f57e5c94db0821a2906f67352838
-
 name:           docusign-example
 version:        0.1.0.0
+synopsis:       DocuSign examples
+description:    This package provides a basic demonstration of how to use the Haskell docusign-client package
+category:       Business
 homepage:       https://github.com/capital-match/docusign-example#readme
 bug-reports:    https://github.com/capital-match/docusign-example/issues
 author:         Capital Match
