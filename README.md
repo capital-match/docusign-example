@@ -35,7 +35,7 @@ stack build
 Run the following, substituting in your own DocuSign account information:
 
 ```
-<cabal new-exec|stack exec> docusign-example --                       \
+<cabal new-exec|stack exec> docusign-example --      \
   --host      demo.docusign.net                      \
   --port      443                                    \
   --account   1234567                                \
