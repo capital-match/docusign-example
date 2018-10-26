@@ -25,7 +25,7 @@ executable docusign-example
       app
   ghc-options: -Wall -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      base >=4.7 && <1000
     , bytestring
     , docusign-base
     , docusign-client
