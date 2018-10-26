@@ -5,7 +5,7 @@ description:    This package provides a basic demonstration of how to use the Ha
 category:       Business
 homepage:       https://github.com/capital-match/docusign-example#readme
 bug-reports:    https://github.com/capital-match/docusign-example/issues
-author:         Capital Match
+author:         Jonathan Knowles
 maintainer:     dev@capital-match.com
 copyright:      Capital Match
 license:        BSD3
