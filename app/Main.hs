@@ -81,7 +81,7 @@ example DocuSignClient {..} options@CommandLineOptions {..} = do
   liftIO $ do
     putStrLn "A new envelope was created with the following ID:"
     print eid
-    putStrLn "The sample document is now ready for signing at the link below:"
+    putStrLn "Your document is now ready for signing at the link below:"
     print url
     putStrLn "After you've signed the document, press [Enter]."
     void getLine
